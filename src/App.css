@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  /* outline: 1px solid red; */
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  height: 100vh;
+  background-color: #2e2e2e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.col{
+
+}
+.math{
+  padding: 80px;
+  border-radius: 20px;
+  background-color: #ffffff17;
+}
+
+
+.card{
   display: flex;
-  flex-direction: column;
   align-items: center;
+justify-content: center;
+
+}
+
+
+.sign{
+  font-size: 2em;
+}
+
+.numbers{
+  font-size: 3em;
+  padding: 10px;
+}
+
+.result{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3em;
+  padding: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.result input[type=text] {
+  padding: 12px 0px;
+  box-sizing: border-box;
+  background-color: #ffffff17;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: inherit;
+  width: 150px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.status{
+  text-align: center;
+  font-size: 2em;
+  padding: 20px 0px 0px;
+}
+
+.success{
+  color: #0a8621;
+}
+
+.unsuccess{
+color: #940b10
 }
